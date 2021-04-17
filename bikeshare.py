@@ -222,7 +222,7 @@ def display_data(df):
     index = 0
     try:
         user_input = input('would you like to display 5 rows of raw data? Enter yes or no\n').lower()
-        while user_input in ['yes', 'y', 'yep', 'yea'] and index + 5 < df.shape[0]:
+        while user_input in ['yes', 'y', 'yep', 'yea', 'yup'] and index + 5 < df.shape[0]:
             print(df.iloc[index:index + 5])
             index += 5
             break
