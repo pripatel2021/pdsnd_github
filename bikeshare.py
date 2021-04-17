@@ -25,7 +25,7 @@ def get_filters():
     #get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     try:
         city = input(
-            " please enter one of the city names in list to analyze bikeshare data - chicago, new york city, washington\n").lower()
+            " which city analysis you would like to do? - chicago, new york city, washington\n").lower()
         while city not in CITY_DATA:
             print(
                 "City you selected is not correct. Please  select one of the citities in the list -  chicago, new york city, washington")
